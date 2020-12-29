@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Contact Form 8
+Plugin Name: Classic Forms 8
 Plugin URI: https://github.com/ClassicPress-research/classic-forms-8
 Description: ClassicPress-compatible Fork of CF 7 by Takayuki Miyoshi. Just another contact form plugin. Simple but flexible.
 Author: Fabian Wolf

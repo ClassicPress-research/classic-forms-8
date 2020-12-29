@@ -1,7 +1,7 @@
-Contact Form 8
-==============
+Contact Forms 8
+===============
 
-This is the development repository for Contact Form 8, a ClassicPress and WP 4.9.x compatible fork of Contact Form 7; which is a plugin that lets you manage contact forms on your website.
+This is the development repository for Contact Forms 8, a ClassicPress- and WP 4.9.x-compatible fork of Contact Form 7; which is a plugin that lets you manage contact forms on your website.
 
 
 License
@@ -23,10 +23,10 @@ Support
 Support for this plugin is primarily provided within the [Github issues tracker](https://github.com/ClassicPress-research/classic-forms-8/issues) as well in the volunteer-based ClassicPress forums.
 
 
-Contributing to Contact Form 8
-------------------------------
+Contributing to Contact Forms 8
+-------------------------------
 
-You can contribute to the project of Contact Form 8 in several ways.
+You can contribute to the project of Contact Forms 8 in several ways.
 This includes (beta)testing this fork, adding pull requests with fixes for possible bugs or backporting features from CF 7 (v5.3.3 and upwards).
 
 Old contribute info for CF 7: [How to contribute to Contact Form 7](https://contactform7.com/contributing/).
