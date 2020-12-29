@@ -1,7 +1,7 @@
-Contact Form 7
-==============
+Contact Forms 8
+===============
 
-This is the development repository for Contact Form 7, a WordPress plugin that lets you manage contact forms on your website. A copy of the plugin package is downloadable from the [WordPress.org Plugin Directory](https://wordpress.org/plugins/contact-form-7/).
+This is the development repository for Contact Forms 8, a ClassicPress- and WP 4.9.x-compatible fork of Contact Form 7; which is a plugin that lets you manage contact forms on your website.
 
 
 License
@@ -13,19 +13,20 @@ This plugin is released under the GNU General Public License Version 2 (GPLv2). 
 Getting started
 ---------------
 
-Install the Contact Form 7 plugin through the **Add Plugins** screen (**Plugins > Add New**). After activating the plugin, the **Contact** menu will appear in the left sidebar. For basic usage, read [Getting started with Contact Form 7](https://contactform7.com/getting-started-with-contact-form-7/) and other documentation on the [official website for the plugin](https://contactform7.com/).
+Install the Contact Form 8 plugin through the **Add Plugins** screen (**Plugins > Add New**). After activating the plugin, the **Contact** menu will appear in the left sidebar. 
+For basic usage, read [Getting started with Contact Form 7](https://contactform7.com/getting-started-with-contact-form-7/) and other documentation on the [Contact Form 7 website](https://contactform7.com/).
 
 
 Support
 -------
 
-Support for this plugin is primarily provided within the volunteer-based WordPress.org support forums. The official website also provides custom development and professional support services. See [Support](https://contactform7.com/support/) for more information.
+Support for this plugin is primarily provided within the [Github issues tracker](https://github.com/ClassicPress-research/classic-forms-8/issues) as well in the volunteer-based ClassicPress forums.
 
 
-Contributing to Contact Form 7
-------------------------------
+Contributing to Contact Forms 8
+-------------------------------
 
-You can contribute to the project of Contact Form 7 in several ways. For more information, see [How to contribute to Contact Form 7](https://contactform7.com/contributing/).
+You can contribute to the project of Contact Forms 8 in several ways.
+This includes (beta)testing this fork, adding pull requests with fixes for possible bugs or backporting features from CF 7 (v5.3.3 and upwards).
 
-
-<br/><br/><p align="center"><img src="https://s.w.org/style/images/codeispoetry.png?1" alt="Code is Poetry." /></p>
+Old contribute info for CF 7: [How to contribute to Contact Form 7](https://contactform7.com/contributing/).
