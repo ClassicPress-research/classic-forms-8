@@ -2,18 +2,34 @@
 /*
 Plugin Name: Classic Forms 8
 Plugin URI: https://github.com/ClassicPress-research/classic-forms-8
-Description: ClassicPress-compatible Fork of CF 7 by Takayuki Miyoshi. Just another contact form plugin. Simple but flexible.
+Description: ClassicPress-compatible Fork of Contact Form 7 (Takayuki Miyoshi). Just another contact form plugin. Simple but flexible.
 Author: Fabian Wolf
 Author URI: https://wp-devil.com
 Text Domain: contact-form-7
 Domain Path: /languages/
-Version: 5.3.2
+Version: 0.1
 */
 
 /**
  * TODO: Add checks to avoid collisions with pre-existing CF 7 installations, maybe also with a notice and automated semi-deactivation.
  * @author Fabian Wolf
- * @since v5.3.2
+ * @since v0.1
+ */
+
+if( defined( 'WPCF7_VERSION' ) && !defined( 'CPCF8_VERSION' ) ) { // bail early
+	
+}
+
+/**
+ * CF 8 constants
+ */
+ 
+if( !defined( 'CPCF8_VERSION' ) ) {
+	define( 'CPCF8_VERSION', '0.1' ); // or 0.1-532 (version 0.1, based on CF7 v5.3.2)
+}
+
+/**
+ * CF 7 original constants
  */
 
 define( 'WPCF7_VERSION', '5.3.2' );
