@@ -18,7 +18,13 @@ require_once WPCF7_PLUGIN_DIR . '/includes/upgrade.php';
 require_once WPCF7_PLUGIN_DIR . '/includes/integration.php';
 require_once WPCF7_PLUGIN_DIR . '/includes/config-validator.php';
 require_once WPCF7_PLUGIN_DIR . '/includes/rest-api.php';
-require_once WPCF7_PLUGIN_DIR . '/includes/block-editor/block-editor.php';
+
+/**
+ * NOTE: The block editor include is the main cause for issues with CF 7 5.3+. Just commented out for now.
+ * @author Fabian Wolf
+ */
+
+//require_once WPCF7_PLUGIN_DIR . '/includes/block-editor/block-editor.php';
 
 if ( is_admin() ) {
 	require_once WPCF7_PLUGIN_DIR . '/admin/admin.php';
