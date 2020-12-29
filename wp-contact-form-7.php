@@ -1,18 +1,24 @@
 <?php
 /*
-Plugin Name: Contact Form 7
-Plugin URI: https://contactform7.com/
-Description: Just another contact form plugin. Simple but flexible.
-Author: Takayuki Miyoshi
-Author URI: https://ideasilo.wordpress.com/
+Plugin Name: Contact Form 8
+Plugin URI: https://github.com/ClassicPress-research/classic-forms-8
+Description: ClassicPress-compatible Fork of CF 7 by Takayuki Miyoshi. Just another contact form plugin. Simple but flexible.
+Author: Fabian Wolf
+Author URI: https://wp-devil.com
 Text Domain: contact-form-7
 Domain Path: /languages/
 Version: 5.3.2
 */
 
+/**
+ * TODO: Add checks to avoid collisions with pre-existing CF 7 installations, maybe also with a notice and automated semi-deactivation.
+ * @author Fabian Wolf
+ * @since v5.3.2
+ */
+
 define( 'WPCF7_VERSION', '5.3.2' );
 
-define( 'WPCF7_REQUIRED_WP_VERSION', '5.4' );
+define( 'WPCF7_REQUIRED_WP_VERSION', '4.9' );
 
 define( 'WPCF7_TEXT_DOMAIN', 'contact-form-7' );
 
