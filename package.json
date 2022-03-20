@@ -1,7 +1,7 @@
 {
-  "name": "contact-form-7",
-  "version": "5.3.0",
-  "description": "Contact form selector block.",
+  "name": "classic-forms-8",
+  "version": "0.0.1",
+  "description": "Fork of Contact Form 7 to support ClassicPress.",
   "private": true,
   "scripts": {
     "start": "wp-scripts start includes/block-editor/src/index.js --output-path=includes/block-editor",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/takayukister/contact-form-7.git"
+    "url": "git+https://github.com/ClassicPress-research/classic-forms-8.git"
   },
   "author": "takayukister",
   "license": "GPL-2.0-only",
   "bugs": {
-    "url": "https://github.com/takayukister/contact-form-7/issues"
+    "url": "https://github.com/ClassicPress-research/classic-forms-8/issues"
   },
-  "homepage": "https://github.com/takayukister/contact-form-7#readme",
+  "homepage": "https://github.com/ClassicPress-research/classic-forms-8#readme",
   "devDependencies": {
     "@wordpress/scripts": "^12.5.0"
   }
