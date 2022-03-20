@@ -23,3 +23,6 @@ node_modules/
 *.sqlite
 includes/block-editor/index.js.map
 includes/block-editor/index.asset.php
+
+# ignore .idea folder
+/.idea
