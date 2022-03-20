@@ -1,8 +1,9 @@
-Contact Form 7
+Classic Forms 8
 ==============
 
-This is the development repository for Contact Form 7, a WordPress plugin that lets you manage contact forms on your website. A copy of the plugin package is downloadable from the [WordPress.org Plugin Directory](https://wordpress.org/plugins/contact-form-7/).
+This is the development repository for Classic Forms 8, a fork of Contact Form 7 compatible with ClassicPress 1.0 and WordPress 4.9.
 
+Classic Forms 8 is a plugin that lets you manage contact forms on your website.
 
 License
 -------
