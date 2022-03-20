@@ -3,11 +3,6 @@
   "version": "0.0.1",
   "description": "Fork of Contact Form 7 to support ClassicPress.",
   "private": true,
-  "scripts": {
-    "start": "wp-scripts start includes/block-editor/src/index.js --output-path=includes/block-editor",
-    "build": "wp-scripts build includes/block-editor/src/index.js --output-path=includes/block-editor",
-    "packages-update": "wp-scripts packages-update"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ClassicPress-research/classic-forms-8.git"
@@ -17,8 +12,5 @@
   "bugs": {
     "url": "https://github.com/ClassicPress-research/classic-forms-8/issues"
   },
-  "homepage": "https://github.com/ClassicPress-research/classic-forms-8#readme",
-  "devDependencies": {
-    "@wordpress/scripts": "^12.5.0"
-  }
+  "homepage": "https://github.com/ClassicPress-research/classic-forms-8#readme"
 }
