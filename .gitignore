@@ -21,8 +21,8 @@ node_modules/
 *.log
 *.sql
 *.sqlite
-includes/block-editor/index.js.map
-includes/block-editor/index.asset.php
+index.js.map
+index.asset.php
 
 # ignore .idea folder
 /.idea
