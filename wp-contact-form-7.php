@@ -1,18 +1,31 @@
 <?php
 /*
-Plugin Name: Contact Form 7
-Plugin URI: https://contactform7.com/
+Plugin Name: Classic Forms 8
+Plugin URI: https://github.com/ClassicPress-research/classic-forms-8
 Description: Just another contact form plugin. Simple but flexible.
 Author: Takayuki Miyoshi
 Author URI: https://ideasilo.wordpress.com/
 Text Domain: contact-form-7
 Domain Path: /languages/
-Version: 5.3.2
+Version: 0.1.0
 */
 
-define( 'WPCF7_VERSION', '5.3.2' );
+/*
+ * Check if we are installed alongside WPCF7, bail immediately if so
+ *
+ * @since 0.0.1
+ */
+if ( defined( 'WPCF7_VERSION' ) ) {
+	return;
+}
 
-define( 'WPCF7_REQUIRED_WP_VERSION', '5.4' );
+define( 'CPCF8_VERSION', '0.1.0' );
+
+define( 'CPCF8_REQUIRED_CP_VERSION', '1' );
+
+define( 'WPCF7_VERSION', '5.5.6' );
+
+define( 'WPCF7_REQUIRED_WP_VERSION', '4.9' );
 
 define( 'WPCF7_TEXT_DOMAIN', 'contact-form-7' );
 

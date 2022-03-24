@@ -1,10 +1,10 @@
-=== Contact Form 7 ===
+=== Classic Forms 8 ===
 Contributors: takayukister
 Donate link: https://contactform7.com/donate/
 Tags: contact, form, contact form, feedback, email, ajax, captcha, akismet, multilingual
-Requires at least: 5.4
-Tested up to: 5.6
-Stable tag: 5.3.1
+Requires at least: 4.9
+Tested up to: 4.9
+Stable tag: 5.5.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,8 @@ If you activate certain features in this plugin, the contact form submitter's pe
 * reCAPTCHA ([Google](https://policies.google.com/?hl=en))
 * Akismet ([Automattic](https://automattic.com/privacy/))
 * Constant Contact ([Endurance International Group](https://www.endurance.com/privacy))
+* [Sendinblue](https://www.sendinblue.com/legal/privacypolicy/)
+* [Stripe](https://stripe.com/privacy)
 
 = Recommended plugins =
 
@@ -75,54 +77,46 @@ Do you have questions or issues with Contact Form 7? Use these support channels 
 
 For more information, see [Releases](https://contactform7.com/category/releases/).
 
-= 5.3.2 =
+= 5.5.6 =
 
-* Removes control, separator, and other types of special characters from filename to fix the unrestricted file upload vulnerability issue.
-* Akismet: Sets ISO 8601 date/time format for the `comment_date_gmt` parameter.
+[https://contactform7.com/contact-form-7-556/](https://contactform7.com/contact-form-7-556/)
 
-= 5.3.1 =
+= 5.5.5 =
 
-* Flamingo: Passes the `last_contacted` parameter based on the submission timestamp.
+[https://contactform7.com/contact-form-7-555/](https://contactform7.com/contact-form-7-555/)
 
-= 5.3 =
+= 5.5.4 =
 
-* Block Editor: Introduces the contact form selector block type.
-* Renames the 'images' directory to 'assets'.
-* New filter hook: `wpcf7_form_tag_date_option`.
-* Date: Makes all DateTime date formats available for `min` and `max` options.
-* Date: Converts the default value to Y-m-d date format string.
-* Disallowed list: Deprecates the `wpcf7_submission_is_blacklisted` filter hook in favor of `wpcf7_submission_has_disallowed_words`.
-* Accessibility: Sets the `aria-describedby` attribute for invalid fields.
-* Default form template: Removes the "(required)" labels from required fields. Adds "(optional)" to optional fields instead.
-* Default mail template: Uses site-related special mail-tags.
+[https://contactform7.com/contact-form-7-554/](https://contactform7.com/contact-form-7-554/)
 
-= 5.2.2 =
+= 5.5.3 =
 
-* Fixed: A REST API call aborted with a PHP fatal error when the `WPCF7_USE_PIPE` constant value was false.
-* Introduces the `wpcf7_doing_it_wrong()` function.
-* Sets the `trigger_error()` function’s `$error_type` parameter explicitly.
-* Makes the `wpcf7_special_mail_tags` filter functions’ `$mail_tag` parameter optional.
+[https://contactform7.com/contact-form-7-553/](https://contactform7.com/contact-form-7-553/)
 
-= 5.2.1 =
+= 5.5.2 =
 
-* Makes the [contact-form-7 404 "Not Found"] message localizable.
-* REST API: Adds the `permission_callback` argument to every endpoint definition.
-* Flamingo: Uses `id()` instead of `id`, if available.
-* Fixed: The `free_text` option did not work correctly with the `exclusive` option.
-* Applies `wpcf7_mail_tag_replaced` filters even when the `$posted_data` is null.
-* Adds custom mail-tag replacement for quiz fields.
-* Admin: Updates the date column format in the list table.
+* REST API: Removes argument schema reference that causes error when the form has 'id' field.
+* Changes method names that are reserved in PHP 5.6.
 
-= 5.2 =
+= 5.5.1 =
 
-* Submission: Introduces the `$posted_data_hash` and `$skip_spam_check` properties.
-* Submission: Introduces the `wpcf7_skip_spam_check` filter hook.
-* Contact form: Introduces the `pref()` method.
-* REST API: Adds parsed form-tags data to the response.
-* REST API: Deprecates the `wpcf7_ajax_json_echo` and `wpcf7_ajax_onload` filter hooks and introduces the `wpcf7_feedback_response` and `wpcf7_refill_response` filter hooks as alternatives.
-* Frontend CSS: Style rules for the response output refer to the `form` element’s `class` attribute.
-* Frontend JavaScript: Abolishes the use of jQuery events.
-* reCAPTCHA: Moves script code to a separate file.
-* reCAPTCHA: Changes the name of the field for reCAPTCHA response token from `g-recaptcha-response` to `_wpcf7_recaptcha_response`.
+* Fixed: Reserved keyword was used in PHP class constant name.
+* Fixed: Uncaught TypeError on `in_array()` call.
+
+= 5.5 =
+
+[https://contactform7.com/contact-form-7-55/](https://contactform7.com/contact-form-7-55/)
+
+= 5.4.2 =
+
+[https://contactform7.com/contact-form-7-542/](https://contactform7.com/contact-form-7-542/)
+
+= 5.4.1 =
+
+[https://contactform7.com/contact-form-7-541/](https://contactform7.com/contact-form-7-541/)
+
+= 5.4 =
+
+[https://contactform7.com/contact-form-7-54/](https://contactform7.com/contact-form-7-54/)
 
 == Upgrade Notice ==
