@@ -2,6 +2,7 @@
 
 require_once WPCF7_PLUGIN_DIR . '/includes/backports/get_post_datetime.php';
 require_once WPCF7_PLUGIN_DIR . '/includes/backports/wp_timezone.php';
+require_once WPCF7_PLUGIN_DIR . '/includes/backports/wp_is_json_request.php';
 require_once WPCF7_PLUGIN_DIR . '/includes/backports/determine-locale.php';
 
 require_once WPCF7_PLUGIN_DIR . '/includes/l10n.php';
