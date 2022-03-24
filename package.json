@@ -1,16 +1,28 @@
 {
-  "name": "classic-forms-8",
-  "version": "0.0.1",
-  "description": "Fork of Contact Form 7 to support ClassicPress.",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ClassicPress-research/classic-forms-8.git"
-  },
-  "author": "takayukister",
-  "license": "GPL-2.0-only",
-  "bugs": {
-    "url": "https://github.com/ClassicPress-research/classic-forms-8/issues"
-  },
-  "homepage": "https://github.com/ClassicPress-research/classic-forms-8#readme"
+	"name": "classic-forms-8",
+	"version": "0.0.1",
+	"description": "JavaScript packages for Contact Form 7.",
+	"private": true,
+	"scripts": {
+		"start:front": "wp-scripts start includes/js/src/index.js --output-path=includes/js",
+		"build:front": "wp-scripts build includes/js/src/index.js --output-path=includes/js",
+		"start:recaptcha": "wp-scripts start modules/recaptcha/src/index.js --output-path=modules/recaptcha",
+		"build:recaptcha": "wp-scripts build modules/recaptcha/src/index.js --output-path=modules/recaptcha",
+		"start:stripe": "wp-scripts start modules/stripe/src/index.js --output-path=modules/stripe",
+		"build:stripe": "wp-scripts build modules/stripe/src/index.js --output-path=modules/stripe",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ClassicPress-research/classic-forms-8.git"
+	},
+	"author": "takayukister",
+	"license": "GPL-2.0-only",
+	"bugs": {
+		"url": "https://github.com/ClassicPress-research/classic-forms-8/issues"
+	},
+	"homepage": "https://github.com/ClassicPress-research/classic-forms-8#readme",
+	"devDependencies": {
+		"@wordpress/scripts": "^22.0.0"
+	}
 }

@@ -23,7 +23,7 @@ define( 'CPCF8_VERSION', '0.0.1' );
 
 define( 'CPCF8_REQUIRED_CP_VERSION', '1' );
 
-define( 'WPCF7_VERSION', '5.3.2' );
+define( 'WPCF7_VERSION', '5.5.6' );
 
 define( 'WPCF7_REQUIRED_WP_VERSION', '4.9' );
 
